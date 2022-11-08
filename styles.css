@@ -2,30 +2,36 @@
     src: url(fonts/PoorStory-Regular.ttf);
     font-family: poor-story;
 }
-
+/* ----------shared----------*/
+body {
+    font-family: poor-story, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* ----------main page styles---------- */
+.html-main {
+    background: url(images/bakery-oven) no-repeat center fixed;
+    background-color: rgb(92, 69, 26);
+}
+.h1-main {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
 .list-recipes {
     color: rgb(255, 255, 255);
-    font-family: poor-story, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
 }
 .list-recipes-bullet {
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-.h1-main {
+/* ----------recipes page styles---------- */
+.html-recipes-page {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(129, 94, 28);
+    color: white;
+}
+.h1-recipes {
     text-align: center;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
     font-family: poor-story, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.html-main {
-    font-family: 'Times New Roman', Times, serif;
-    background: url(images/bakery-oven) no-repeat center fixed;
-    background-color: rgb(92, 69, 26)
-}
-.html-recipes-page {
-    background-color: rgb(129, 94, 28);
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-}
