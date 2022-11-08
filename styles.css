@@ -1,6 +1,11 @@
+@font-face {
+    src: url(fonts/PoorStory-Regular.ttf);
+    font-family: poor-story;
+}
+
 .list-recipes {
     color: rgb(136, 88, 0);
-    font-family:'Courier New', Courier, monospace;
+    font-family: poor-story, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
 }
 .list-recipes-bullet {
@@ -11,5 +16,9 @@
     text-align: center;
     font-size: 40px;
     color: rgb(54, 9, 9);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: poor-story, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
